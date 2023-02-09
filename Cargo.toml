@@ -1,0 +1,17 @@
+[package]
+authors = ["Vinh Truong <vinhphuc.truong@gmail.com>"]
+categories = ["graphics", "rendering", "game-development"]
+description = "A pure Rust implementation of Hosek-Wilkie Skylight Model."
+edition = "2021"
+keywords = ["gamedev", "graphics", "rendering", "sky", "hosek-wilkie"]
+license-file = "LICENSE"
+name = "hw-skymodel"
+readme = "README.md"
+repository = "https://github.com/phoekz/hw-skymodel"
+version = "0.1.0"
+
+[dependencies]
+bytemuck = "1.13.0"
+embed-doc-image = "0.1.4"
+include_bytes_aligned = "0.1.2"
+thiserror = "1.0.38"
